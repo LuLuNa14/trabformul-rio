@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div> 
+        <h1> Formulário de inscrição</h1>
+        <p>Preencha com suas informações</p>
+        <br>
+    </div>
+    <form action="">
+        <fieldset>
+<div>
+<label for=""><b>Nome</b></label> 
+<input type="text" name="name" id="name" > 
+<label for=""><b>Sobrenome</b></label> 
+<input type="text" name="Sobrenome" id="sobrenome">
+</div>
+<br>
+<div>
+<label for=""><b>Data de nascimento</b></label>
+<input type="date" name="nascimento" id="nasc">
+</fieldset>
+<br>
+<fieldset>
+<label for=""><b>Email</b></label>
+<input type="email" name="email" id="email"> 
+</div>
+<br>
+<div>
+<label for=""><b>Estado Civil</b></label> <br>
+<input type="radio" name="Civil" value="S" checked>Solteiro(a) 
+<input type="radio" name="Civil" value="C">Casado(a)
+<input type="radio" name="Civil" value="V"> Viúvo(a)
+<input type="radio" name="Civil" value="D">Divorciado(a)
+</div> <br>
+<div>
+    <label for=""><b>Endereço</b></label>
+    <input type="text" name="end" id="end">
+</div>
+<br>
+<div>
+<label for=""><b>CPF</b></label>
+<input placeholder="000 000 000 00" type="text" name="cpf" id="cpf">
+</div>
+</fieldset>
+<fieldset>
+<label for=""><b>Você possue quantos irmãos? </b></label>
+<input type="checkbox" name="irmao" id="irmao"> 1
+<input type="checkbox" name="irmao" id="irmao"> 2
+<input type="checkbox" name="irmao" id="irmao"> +3
+<input type="checkbox" name="irmao" id="irmao"> Nenhum
+</fieldset>
+<div>
+    <label for="">Fale um pouco de você: </label> <br>
+    <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+</div>
+<button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
